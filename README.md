@@ -86,16 +86,7 @@ Or use Swagger: click **Authorize**, paste the access token, then
 | GET    | `/protected/dashboard`  | `Authorization: Bearer <token>`    | 200     | 401 missing/invalid token             |
 | GET    | `/public/info`          | none                                | 200     | —                                      |
 
-## Swagger UI screenshot
 
-_Add a screenshot of `/docs` here showing the lock icons on the protected
-routes and a successful "Try it out" call on `/protected/profile`._
-
-## AI vs me
-
-_(Stage 7, optional) — after running your own AI-generated version in
-`ai-version/`, summarize here: how it handled the `Bearer ` prefix, any
-security flaws it introduced, and what your prompt left ambiguous._
 
 ## Project structure
 
